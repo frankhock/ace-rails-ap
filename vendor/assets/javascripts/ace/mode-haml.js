@@ -1,4 +1,4 @@
-define(function(require, exports, module) {
+define('ace/mode/haml', ['require', 'exports', 'module' , 'ace/lib/oop', 'ace/mode/text', 'ace/mode/javascript', 'ace/mode/css', 'ace/tokenizer', 'ace/mode/haml_highlight_rules', 'ace/mode/behaviour/haml', 'ace/mode/folding/haml'], function(require, exports, module) {
 "use strict";
 
 var oop = require("../lib/oop");
